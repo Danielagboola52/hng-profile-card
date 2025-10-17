@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card - HNG Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <article data-testid="test-profile-card" class="profile-card">
+        
+        
+        <figure class="profile-avatar-container">
+            <img 
+                src="images/avatar.png" 
+                alt="Florence Daniels profile avatar"
+                data-testid="test-user-avatar"
+                class="profile-avatar"
+            >
+        </figure>
+
+        
+        <div class="profile-content">
+            
+            
+            <header class="profile-header">
+                <h1 data-testid="test-user-name" class="profile-name">
+                    Florence Daniels
+                </h1>
+            </header>
+
+            
+            <p data-testid="test-user-bio" class="profile-bio">
+                A passionate software developer and tech enthusiast who loves building 
+                innovative solutions. Always eager to learn new technologies and share 
+                knowledge with the community.
+            </p>
+
+            
+            <div class="profile-time-container">
+                <strong>Current Time:</strong>
+                <span data-testid="test-user-time" class="profile-time" id="currentTime">
+                    
+                </span>
+                <span class="time-label">ms</span>
+            </div>
+
+            
+            <nav data-testid="test-user-social-links" class="profile-social" aria-label="Social media links">
+                <h2 class="section-title">Connect With Me</h2>
+                <ul class="social-links-list">
+                    <li>
+                        <a 
+                            href="https://twitter.com/florencedaniels" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-twitter"
+                            class="social-link twitter"
+                        >
+                            <span class="social-icon">🐦</span>
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="https://github.com/florencedaniels" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-github"
+                            class="social-link github"
+                        >
+                            <span class="social-icon">💻</span>
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="https://linkedin.com/in/florencedaniels" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-linkedin"
+                            class="social-link linkedin"
+                        >
+                            <span class="social-icon">💼</span>
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            
+            <section data-testid="test-user-hobbies" class="profile-section hobbies-section">
+                <h2 class="section-title">Hobbies & Interests</h2>
+                <ul class="list-items">
+                    <li>🎮 Gaming and game development</li>
+                    <li>📚 Reading tech blogs and books</li>
+                    <li>🎸 Playing guitar</li>
+                    <li>🏃 Running and fitness</li>
+                    <li>✈️ Traveling and exploring new cultures</li>
+                </ul>
+            </section>
+
+            
+            <section data-testid="test-user-dislikes" class="profile-section dislikes-section">
+                <h2 class="section-title">Dislikes</h2>
+                <ul class="list-items">
+                    <li>❌ Poorly documented code</li>
+                    <li>🐛 Bugs in production</li>
+                    <li>⏰ Being late to meetings</li>
+                    <li>🔇 Noisy work environments</li>
+                    <li>🚫 Unnecessary complexity</li>
+                </ul>
+            </section>
+
+        </div>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
