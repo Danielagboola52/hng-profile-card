@@ -4,7 +4,7 @@ A responsive profile card built with HTML, CSS, and JavaScript for the HNG Inter
 
 ## 🚀 Live Demo
 
-[View Live Site](https://your-netlify-url.netlify.app)
+[View Live Site](https://florence-daniels-profile.netlify.app)
 
 ## ✨ Features
 
